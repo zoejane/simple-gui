@@ -4,6 +4,13 @@ from PyQt5.QtCore import *
 
 import sys
 
+class MainWindow(QMainWindow):
+	pass
+
+
 app = QApplication(sys.argv)
+
+window = MainWindow()
+window.show() # IMPORTANT
 
 app.exec_()
