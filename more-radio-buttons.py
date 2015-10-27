@@ -23,11 +23,20 @@ programming language:''',
 	padx=20).pack()
 
 for txt, val in languages:
-	Radiobutton(root,
+	'''Radiobutton(root,
 				text=txt,
 				padx=20,
 				variable=v,
 				command=ShowChoice,
-				value=val).pack(anchor=W)
+				value=val).pack(anchor=W)'''
+
+   	Radiobutton(root, 
+                text=txt,
+                indicatoron = 0,
+                width = 20,
+                padx = 20, 
+                variable=v, 
+                command=ShowChoice,
+                value=val).pack(anchor=W)
 
 mainloop()
