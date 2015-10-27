@@ -9,7 +9,9 @@ exists to allow additional image file
 formats to be added easily.'''
 
 w=Label(root,
-		compound=CENTER,
+		justify=LEFT,
+		compound=LEFT,
+		padx=10,
 		text=explation,
 		image=logo).pack(side='right')
 
